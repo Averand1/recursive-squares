@@ -1,8 +1,29 @@
 html {
-  color-scheme: light dark;
+  color-scheme: light;
   font-family: system-ui;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+
+.main {
+  height: '100dvh';
+  width: '100dvw';
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+.square {
+  border: 2px solid black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.square-inner {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
 }
