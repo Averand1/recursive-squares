@@ -24,7 +24,7 @@ const Home = () => {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename='/recursive-squares'>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/task1" element={<Square/>}/>
