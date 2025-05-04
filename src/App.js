@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div style={{display: 'flex', flexDirection: 'column', gap: '1rem', padding: '2rem'}}>
-      <button onClick={() => navigate('/task1')}>Recursive Grid</button>
+      <button onClick={() => navigate('/recursive-squares/task1')}>Recursive Grid</button>
       <button></button>
       <button></button>
       <button></button>
