@@ -21,13 +21,12 @@ const Home = () => {
 
 
 
-
-export default function App() {
+function App() {
   return (
     <Router basename='/recursive-squares'>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/task1" element={<Square/>}/>
+        <Route path="/recursive-squares" element={<Home/>}/>
+        <Route path="/recursive-squares/task1" element={<Square/>}/>
         <Route path="/task2" element={<Home/>}/>
         <Route path="/task3" element={<Home/>}/>
         <Route path="/task4" element={<Home/>}/>
@@ -35,3 +34,5 @@ export default function App() {
     </Router>
   )
 }
+
+export default App;
